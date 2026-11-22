@@ -1,0 +1,40 @@
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Editor and IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Build outputs
+build/
+dist/
+out/
+*.elf
+*.map
+*.bin
+*.hex
+*.uf2
+
+# ESP-IDF
+managed_components/
+sdkconfig
+sdkconfig.old
+.vscode/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+
+# Local assistant/workbench data
+.workbuddy/
