@@ -23,6 +23,10 @@ managed_components/
 sdkconfig
 sdkconfig.old
 .vscode/
+eim_config.toml
+
+# Vendor datasheets kept local; do not redistribute in repository
+文档/手册/
 
 # Python
 __pycache__/
