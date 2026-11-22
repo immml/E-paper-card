@@ -23,12 +23,14 @@
 - [硬件设计文件](硬件/设计文件/)
 - [生产文件](硬件/生产文件/)
 
-## 开源协议
+## 开源协议与商业授权
 
-硬件设计文件与文档采用 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) 协议：
+本仓库按内容类型采用双协议，详见根目录的 [LICENSE](LICENSE)：
 
-- 必须署名；
-- 不得用于商业用途；
-- 修改或衍生作品必须以相同协议发布。
+- `硬件/`： [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)，禁止未经授权的商业使用。
+- `文档/`： [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)。
+- `软件/`： [AGPL-3.0-or-later](https://www.gnu.org/licenses/agpl-3.0.html)。
 
-固件源码如单独发布，协议以对应目录或文件中的声明为准。
+如需商业生产硬件、销售基于本项目设计的产品，或将软件集成到不遵循 AGPL 义务的专有产品中，请联系版权持有人获取商业授权：
+
+**Llqi_yx_1@163.com**

@@ -3,13 +3,13 @@
 [![MCU](https://img.shields.io/badge/MCU-ESP32--S3-2F6FB5?style=flat-square)](#)
 [![Display](https://img.shields.io/badge/Display-3.7%22%20E--Ink%20240x416-222222?style=flat-square)](#)
 [![Framework](https://img.shields.io/badge/Framework-ESP--IDF%20v5-E8710A?style=flat-square)](#)
-[![License](https://img.shields.io/badge/License-CC--BY--NC--SA--4.0-3B7D5A?style=flat-square)](#)
+[![License](https://img.shields.io/badge/License-Dual--License-3B7D5A?style=flat-square)](#)
 [![Status](https://img.shields.io/badge/Status-%E8%AE%BE%E8%AE%A1%E9%98%B6%E6%AE%B5-E8A33D?style=flat-square)](#)
 
 > 一张不用插电、写完就能送出去的电子贺卡。
 > 它是贺卡，也是礼物 —— 更是名片、电子书、MP3 播放器、一支录音笔，和一台挂在墙上的语音助手。
 
-**主控** ESP32-S3-WROOM-1-N16R2 ｜ **屏** 3.7" 墨水屏 240×416 ｜ **电池** 502080 / 1000mAh ｜ **协议** CC-BY-NC-SA-4.0 ｜ **状态** 设计阶段
+**主控** ESP32-S3-WROOM-1-N16R2 ｜ **屏** 3.7" 墨水屏 240×416 ｜ **协议** 硬件/文档 CC-BY-NC-SA-4.0，软件 AGPL-3.0-or-later ｜ **状态** 设计阶段
 
 ---
 
@@ -1048,8 +1048,12 @@ assets,     data, fat,     0xC20000, 3.5M,    # 内置示例图文
 
 ## 八、开源协议
 
-硬件设计文件与文档采用 **CC-BY-NC-SA-4.0**：
-可自由复制、修改、分发，但**不得用于商业用途**；必须署名，且衍生作品需以相同协议开源。
+本项目采用双协议：
+
+- `硬件/` 与 `文档/` 采用 **CC BY-NC-SA 4.0**：必须署名、不得商业使用，衍生作品须采用相同协议。
+- `软件/` 采用 **AGPL-3.0-or-later**：分发修改版本或通过网络提供交互服务时，须提供对应源代码。
+
+完整说明见仓库根目录的 `LICENSE`、`硬件/LICENSE` 和 `文档/LICENSE`。商业授权请联系 `Llqi_yx_1@163.com`。
 
 固件源码若单独发布，建议采用 MIT，以便更广泛地被引用与集成。
 

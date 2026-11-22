@@ -1,0 +1,20 @@
+# 硬件设计许可证
+
+Copyright (C) 2026 immml
+
+`硬件/` 目录中的原理图、PCB 设计文件、Gerber、BOM、生产资料及其他硬件设计内容，除另有明确说明外，采用 **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International（CC BY-NC-SA 4.0）** 许可证。
+
+你可以复制、分享和修改这些内容，但必须：
+
+1. 保留署名、版权和许可证声明；
+2. 不得将其用于商业用途；
+3. 发布修改或衍生作品时，必须采用相同许可证。
+
+许可证全文：
+https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.zh-hans
+
+商业生产、销售或其他商业用途请联系：
+
+**Llqi_yx_1@163.com**
+
+SPDX-License-Identifier: CC-BY-NC-SA-4.0
